@@ -1,0 +1,20 @@
+idTipoExames,TIPOEXAME,statusExame
+1,SANGUE DEVOLVIDO,ativo
+2,CD4 / CD8,ativo
+3,CARGA VIRAL,inativo
+4,TESTE DE GRAVIDEZ,inativo
+5,SEPARAÇÃO DE CÉLULAS,inativo
+6,COLETA PARA ENVIO,inativo
+7,OUTROS,ativo
+8,HIV - ELISA,inativo
+9,HIV - W.BLOT,inativo
+10,HTLV-1 ELISA,inativo
+11,HTLV-1 W.BLOT,inativo
+12,SIFILIS - VDRL / RPR,inativo
+13,SIFLIS - FTA-ABS,inativo
+14,HEPATITE B,inativo
+15,GS HIV-1 W BLOT,inativo
+16,GENOTIPAGEM,inativo
+17,CARGA VIRAL - ABBOTT,inativo
+18,SIFLIS - RPR,inativo
+19,CD4 / CD8 F CRITÉRIO,inativo
