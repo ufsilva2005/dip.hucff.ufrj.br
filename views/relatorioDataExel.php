@@ -14,6 +14,7 @@
 
 	$html .= '<tr>';	
 	$html .= '<td><b>Nome</b></td>';
+	$html .= '<td><b>Prontuário</b></td>';
 	$html .= '<td><b>Nº amostra</b></td>';
 	$html .= '<td><b>Nº Amostra Cega</b></td>';
 	$html .= '<td><b>Data Amostra</b></td>';
@@ -35,11 +36,12 @@
 		    $html .= '<tr>';
 			//$html .= '<td>' . $resp->nomeFuncionario .'</td>';
 			$html .= '<td>' . $resp->nomePaciente .'</td>';
+			$html .= '<td>' . $resp->prontuario .'</td>';
 			$html .= '<td>' . $resp->numAmostra .'</td>';
 			$html .= '<td>' . $resp->numAmostraCega .'</td>';
 			$html .= '<td>' . formatarData2($resp->dataAmostra) . '</td>';
 			$html .= '<td>' . formatarData2($resp->dataCadastroE) .'</td>';
-            $html .= '<td>' . $resp->numOrigem .'</td>';
+            $html .= '<td>' . $resp->numOrigem . ' - ' . $resp->descricao . '</td>';
 
 			$html .=  '<td>';
   			$tiposExames =$resp->tiposExames;

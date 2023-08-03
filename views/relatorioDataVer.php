@@ -37,6 +37,7 @@
                             <thead>
                                 <tr>                                     
                                     <th>PACIENTE</th> 
+                                    <th>PRONTUÁRIO</th>
                                     <th>Nº AMOSTRA</th> 
                                     <th>Nº AMOSTRA CEGA</th> 
                                     <th>DATA AMOSTRA</th>                                             
@@ -64,11 +65,12 @@
                                                 <tr>  
                                                                                          
                                                     <td><?php echo $resp->nomePaciente; ?></td>
+                                                    <td><?php echo $resp->prontuario; ?></td>
                                                     <td><?php echo $resp->numAmostra; ?></td>
                                                     <td><?php echo $resp->numAmostraCega; ?></td>
                                                     <td><?php echo formatarData2($resp->dataAmostra); ?></td>                                               
                                                     <td><?php echo formatarData2($resp->dataCadastroE); ?></td>  
-                                                    <td><?php echo $resp->numOrigem;?></td>    
+                                                    <td><?php echo $resp->numOrigem . " - " . $resp->descricao;?></td>    
                                                     <?php $tiposExames =$resp->tiposExames;?>   
                                                     <td>
                                                         <?php
